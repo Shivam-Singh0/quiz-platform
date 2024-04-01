@@ -1,0 +1,53 @@
+body {
+  text-transform: capitalize;
+}
+
+.MuiButton-root {
+  text-transform: capitalize;
+}
+
+.container-home {
+  display: flex;
+  justify-content: center;
+
+  height: 80vh;
+}
+
+.imageContainer {
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+  & :hover {
+    transform: scale(1.05);
+  }
+}
+
+.TextField:focus {
+  outline: none;
+}
+
+.input-inset {
+  border: none;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 3px 4px 0px #e2e2e2, inset -4px -1px 12px #f1f1f1;
+    transition: box-shadow 0.3s ease;
+    width: 300px;
+    font-size: 16px;
+    outline: none;
+}
+.input-inset:focus {
+  outline: none;
+}
+
+button.MuiToggleButton-root.Mui-selected {
+  background-color: #49ff6a !important;
+  border-color: #00000000 !important;
+}
+
+.result {
+  background-image: url('./celebration.jpg');
+  height: 100%;
+}
